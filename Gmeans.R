@@ -1,6 +1,6 @@
 library('nortest')
 library('ellipse')
-x = read.csv("hw45-r3b-test-data.csv")
+x = read.csv("test.csv")
 x = as.matrix(x)
 
 Gmeans = function(a,k=1,alpha=0.0001)
